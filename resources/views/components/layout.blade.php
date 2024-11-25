@@ -26,7 +26,7 @@
                 <x-nav-link href="/" :active="request()->is('/')">Jobs</x-nav-link>
                 <x-nav-link href="/" :active="request()->is('/careers')">Careers</x-nav-link>
                 <x-nav-link href="/" :active="request()->is('/salaries')">Salaries</x-nav-link>
-                <x-nav-link href="/" :active="request()->is('/companies')">Companies</x-nav-link>
+                <x-nav-link href="/" :active="request()->is('/companies')">Companies or so</x-nav-link>
             </div>
 
             @auth
